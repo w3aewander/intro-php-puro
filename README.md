@@ -2,8 +2,7 @@
 ## Código básico para aprendizagem de programação WEB com PHP 7.4 ou superior ( preferível 8.x)
 
 > Wanderlei silva do carmo
-
-> Eng. Arquiteto de Software
+>> Eng. Arquiteto de Software
 
 ### Trilha de aprendizagem
 1. Introdução à linguagem de programação PHP
