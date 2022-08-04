@@ -12,8 +12,5 @@
             "name": "Wanderlei Silva do Carmo",
             "email": "wander.silva@gmail.com"
         }
-    ],
-    "require": {
-        "components/bootstrap": "^4.6"
-    }
+    ]
 }
