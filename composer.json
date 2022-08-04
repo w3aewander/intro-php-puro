@@ -1,0 +1,19 @@
+{
+    "name": "wanderlei/app-dds-311",
+    "description": "Apenas para teste",
+    "license": "GPL 3",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wanderlei Silva do Carmo",
+            "email": "wander.silva@gmail.com"
+        }
+    ],
+    "require": {
+        "components/bootstrap": "^4.6"
+    }
+}

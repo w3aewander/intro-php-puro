@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'wanderlei/app-dds-311',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'components/bootstrap' => array(
+            'pretty_version' => '4.6.2',
+            'version' => '4.6.2.0',
+            'type' => 'component',
+            'install_path' => __DIR__ . '/../components/bootstrap',
+            'aliases' => array(),
+            'reference' => 'fca56bda4c5c40cb2a163a143e8e4271a6721492',
+            'dev_requirement' => false,
+        ),
+        'components/jquery' => array(
+            'pretty_version' => '3.6.0',
+            'version' => '3.6.0.0',
+            'type' => 'component',
+            'install_path' => __DIR__ . '/../components/jquery',
+            'aliases' => array(),
+            'reference' => '6cf38ee1fd04b6adf8e7dda161283aa35be818c3',
+            'dev_requirement' => false,
+        ),
+        'wanderlei/app-dds-311' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+    ),
+);
