@@ -4,8 +4,7 @@
 > **Wanderlei silva do carmo**
 >
 - _Eng. Arquiteto de Software_
-- _Instrutor de Educação_
-- _Profissional Técnica_
+- _Instrutor de Educação Profissional Técnica_
 >
 
 ### Trilha de aprendizagem
