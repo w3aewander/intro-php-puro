@@ -1,6 +1,7 @@
 # Programação PHP - a base
-### Código básico para aprendizagem de programação WEB com PHP 7.4 ou superior ( preferível 8.x)
+## Código básico para aprendizagem de programação WEB com PHP 7.4 ou superior ( preferível 8.x)
 
+### Trilha de aprendizagem
 1. Introdução à linguagem de programação PHP
 2. Baixando e configurando o PHP para Windows e Linux
 3. O que é preciso saber para programar em PHP
@@ -15,7 +16,9 @@
 12. PSR / PHP-FIG
 13. Assets
 14. CSS e Javascript Introdutório
-15. Implementação do modelo MVC - Model View Controller
-16. Sintaxe convencional e alternativa
-17. Acesso a dados com o PHP
-18. Criação de CRUD básico
+15. SASS/LESS (Preprocessadores CSS)
+16. Implementação do modelo MVC - Model View Controller
+17. Sintaxe convencional e alternativa
+18. Acesso a dados com o PHP
+19. Criação de CRUD básico
+20. Framework Laravel - Evoluindo na linguagem.
