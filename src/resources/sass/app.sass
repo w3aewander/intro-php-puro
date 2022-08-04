@@ -7,7 +7,16 @@ body {
     font-size: 3rem;
 }
 .mybutton {
-    &:hover { background:#fafafa; }
-    &:active { background:#afafaf; }
-    &:focus { background:#fffaff; }
+    padding: 5px;
+    border: 5px solid gray;
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+    &:hover { 
+        background: tomato; 
+        border: 5px outset lightgray; }
+    &:active { 
+        background: darkorange; 
+        border: 5px  inset }
+    &:focus { background: yellow; }
 }

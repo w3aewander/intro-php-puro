@@ -6,11 +6,19 @@ body {
   color: red;
   font-size: 3rem; }
 
-.mybutton:hover {
-  background: #fafafa; }
-.mybutton:active {
-  background: #afafaf; }
-.mybutton:focus {
-  background: #fffaff; }
+.mybutton {
+  padding: 5px;
+  border: 5px solid gray;
+  background-color: orange;
+  cursor: pointer;
+  color: white; }
+  .mybutton:hover {
+    background: tomato;
+    border: 5px outset lightgray; }
+  .mybutton:active {
+    background: darkorange;
+    border: 5px inset; }
+  .mybutton:focus {
+    background: yellow; }
 
 /*# sourceMappingURL=app.css.map */
