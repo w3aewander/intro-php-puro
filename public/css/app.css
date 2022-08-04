@@ -1,8 +1,16 @@
 body {
-    padding-top: 60px;
-    background-color: #fafafa;
-}
-.h1--teste{
-    color: red;
-    font-size: 3rem;
-}
+  padding-top: 60px;
+  background-color: #fafafa; }
+
+.h1--teste {
+  color: red;
+  font-size: 3rem; }
+
+.mybutton:hover {
+  background: #fafafa; }
+.mybutton:active {
+  background: #afafaf; }
+.mybutton:focus {
+  background: #fffaff; }
+
+/*# sourceMappingURL=app.css.map */
