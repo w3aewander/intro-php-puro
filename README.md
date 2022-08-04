@@ -1,5 +1,5 @@
 # Programação PHP - a base
-### Código básico para aprendizagem de programação WEB com a linhagem de PHP 7.4 ou superior ( preferível 8.x)
+### Código básico para aprendizagem de programação WEB com PHP 7.4 ou superior ( preferível 8.x)
 
 1. Variáveis, Constantes, Classes, Interfaces e Métodos
 2. PSR / PHP-FIG
