@@ -3,6 +3,7 @@
 
 > Wanderlei silva do carmo
 >> Eng. Arquiteto de Software
+>> Instrutor de Educação Profissional Técnica
 
 ### Trilha de aprendizagem
 1. Introdução à linguagem de programação PHP
