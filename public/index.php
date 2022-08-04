@@ -14,12 +14,16 @@
  $action = $url[2] ?? "index";
  $params = $url[3] ?? "";
 
- switch($controller){
-    case "home":
-        $home = new  App\Controllers\HomeController;
-        $home->$action($params);
-    break;
+//  switch($controller){
+//     case "home":
+//         $home = new  App\Controllers\HomeController;
+//         $home->$action($params);
+//     break;
 
-    default:
-        echo "nenhum rota encontrada";
- }
+//     // default:
+//     //     echo "nenhum rota encontrada";
+//  }
+
+
+ $home = new  App\Controllers\HomeController;
+ $home->$action($params);
