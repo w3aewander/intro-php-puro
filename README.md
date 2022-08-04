@@ -1,8 +1,12 @@
 # Programação PHP - a base
-### Código básico para aprendizagem de programação WEB com a linhagem de PHP 7.4 ou suporior
+### Código básico para aprendizagem de programação WEB com a linhagem de PHP 7.4 ou superior ( preferível 8.x)
 
-1. Criação de projeto com o composer
-2.  Estrutura de diretórios do projeto WEB em PHP
-3. Assets
-4. CSS e Javascript Introdutório
-5. Uso de namespaces
+1. Variáveis, Constantes, Classes, Interfaces e Métodos
+2. PSR / PHP-FIG
+3. Programação Orientada a Objetos
+4. Criação de projeto com o composer
+5.  Estrutura de diretórios do projeto WEB em PHP
+6. Assets
+7. CSS e Javascript Introdutório
+8. Uso de namespaces
+9. Implementação do modelo MVC - Model View Controller
