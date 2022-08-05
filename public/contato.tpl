@@ -22,5 +22,5 @@
 
 <div class="btn-group gap-1 mt-1">
   <button type="reset" class="btn btn-primary btn-sm">Limpar</button>
-  <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+  <button type="submit" onclick="return dwsYesNo('Perqunta','Enviando os dados do formulário?','warning', ()=> loadPage('sobre'), ()=>{ return false} )" class="btn btn-primary btn-sm">Enviar</button>
 </div>

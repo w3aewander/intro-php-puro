@@ -8,7 +8,7 @@
 </p>
 
 
-<a class="btn btn-primary" href="#" onclick="loadPage('login');" style="border-radius: 15px">Entrar</a>
+<a class="btn btn-primary" href="#" onclick="return dwsOk('Informação','Será encaminhada para a página de login.', 'info', () =>{ loadPage('login'); });" style="border-radius: 15px">Entrar</a>
 
 
 

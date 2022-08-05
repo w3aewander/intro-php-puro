@@ -1,3 +1,8 @@
+@keyframes anima-dlgbox {
+  0% {
+    opacity: 0%; }
+  100% {
+    opacity: 100%; } }
 @keyframes anima-fundo {
   0% {
     background: radial-gradient(circle at 1%, #0e0ad8 100%, #00a2ff 45%, #3711a9 100%) no-repeat; }
