@@ -162,7 +162,7 @@ const dwsYesNo = (title, message, type='primary', callbackYes=null, callbackNo=n
     
     // ícone do botão ok
     const btnNoIcon = document.createElement('i');
-    btnNoIcon.setAttribute('class','fa fa-check fa-fw');   
+    btnNoIcon.setAttribute('class','fa fa-ban fa-fw');   
     btnNo.append(btnNoText)
     btnNo.append(btnNoIcon);
     btnNo.setAttribute('class',`btn btn-danger`);
