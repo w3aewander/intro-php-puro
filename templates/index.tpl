@@ -59,6 +59,12 @@
 
 </div>
 
+<div class="text-center">
+   <small>v05.08.2022-alpha</small><br>
+   <small>Desenvolvido por Wanderlei Silva do Carmo</small><br>
+   <small><a href="mailto:wander.silva@gmail.com">wander.silva@gmail.com</a></small>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/js/all.min.js" integrity="sha512-jObRWaj/w03b6Dq1xdRBbWfH5QWAnKWGNC9KLNzTj6cCLJymt7atj08eQc5JSTh5IYHsP+0VPAvZhAWkmZLszg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/js/app.js"></script>
