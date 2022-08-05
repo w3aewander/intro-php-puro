@@ -1,24 +1,68 @@
+@keyframes anima-fundo {
+  0% {
+    background: radial-gradient(circle at 1%, #0e0ad8 100%, #00a2ff 45%, #3711a9 100%) no-repeat; }
+  50% {
+    background: radial-gradient(circle at 2%, #0e0ad8 100%, #00a2ff 50%, #3711a9 100%) no-repeat; }
+  100% {
+    background: radial-gradient(circle at 5%, #05009c 100%, #00a2ff 55%, #3711a9 100%) no-repeat; } }
 body {
-  padding-top: 60px;
-  background-color: #fafafa; }
+  padding-top: 50px;
+  height: 100vh;
+  widht: 100vw;
+  animation: anima-fundo 5s infinite; }
+
+#app {
+  margin: 5px auto;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fafafa;
+  height: calc(100vh - 120px); }
 
 .h1--teste {
-  color: red;
   font-size: 3rem; }
+
+.box-login {
+  display: block;
+  margin: 0 auto;
+  width: 320px; }
+
+.bg-navbar {
+  background-color: #daa520; }
+
+.nav-link {
+  text-decoration: none;
+  color: #fafafa; }
+  .nav-link:hover {
+    text-decoration: underline; }
+
+.topo {
+  display: block;
+  height: 60px;
+  background-color: #cdd0d7;
+  z-index: 999; }
 
 .mybutton {
   padding: 5px;
-  border: 5px solid gray;
-  background-color: orange;
+  width: 100px;
+  border: 2px solid gray;
+  background: radial-gradient(#faa914b3, #c06409b3);
   cursor: pointer;
   color: white; }
   .mybutton:hover {
-    background: tomato;
-    border: 5px outset lightgray; }
+    background: radial-gradient(#f2c900b3, #f6ba08b3);
+    color: black;
+    border: 1px outset lightgray; }
   .mybutton:active {
-    background: darkorange;
-    border: 5px inset; }
+    background: radial-gradient(#ffd781b3, rgba(255, 250, 200, 0.7));
+    color: black;
+    border: 1px inset; }
   .mybutton:focus {
     background: yellow; }
+
+@media screen and (max-width: 390px) {
+  .box-login {
+    display: block;
+    margin: 0 auto;
+    width: 360px; } }
 
 /*# sourceMappingURL=app.css.map */

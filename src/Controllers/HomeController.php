@@ -25,16 +25,15 @@
          $user->setNome("Jairo");
          $user->setIdade(24);
 
-    
-         include_once ( $this->getTemplateDir().'index.tpl');
+         require_once ( $this->getTemplateDir().'index.tpl');
 
         }
 
     public function contato(){
-        include_once ( $this->getTemplateDir().'contato.tpl');
+        require_once ( $this->getTemplateDir().'contato.tpl');
     }
 
     public function sobre(){
-        include_once ( $this->getTemplateDir().'sobre.tpl');
+        require_once ( $this->getTemplateDir().'sobre.tpl');
     }
  }
