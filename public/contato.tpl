@@ -1,3 +1,5 @@
+
+<form id="contato" action="/sendmail" method="post">
 <h1>Contato</h1>
 
 <div class="form-group">
@@ -16,11 +18,18 @@
 </div>
 
 <div class="form-group">
+  <label for="assunto" class="col-sm-2 control-label">Assunto</label>
+  <input type="text" class="form-control" placeholder="assunto aqui" name="assunto" id="assunto">
+</div>
+
+<div class="form-group">
   <label for="mensagem" class="col-sm-2 control-label">Mensagem</label>
   <textarea  rows="5" class="form-control" placeholder="Sua mensagem aqui" name="mensagem" id="mensagem"></textarea>
 </div>
 
 <div class="btn-group gap-1 mt-1">
   <button type="reset" class="btn btn-primary btn-sm">Limpar</button>
-  <button type="submit" onclick="return dwsYesNo('Perqunta','Enviando os dados do formulário?','warning', ()=> loadPage('sobre'), ()=>{ return false} )" class="btn btn-primary btn-sm">Enviar</button>
+  <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
 </div>
+</form>
+
