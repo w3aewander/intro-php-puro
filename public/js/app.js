@@ -1,8 +1,8 @@
 ( () => {
-  const link = document.createElement('link')
-  link.rel = 'stylesheet'
-  link.href = '/css/app.css'
-  document.head .appendChild(link)
+  // const link = document.createElement('link')
+  // link.rel = 'stylesheet'
+  // link.href = '/css/app.css'
+  // document.head .appendChild(link)
 
   const ancor = document.querySelectorAll('a')
 

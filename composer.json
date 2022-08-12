@@ -8,7 +8,8 @@
         }
     },
     "scripts": {
-          "start": "php -S 0.0.0.0:7000 -t public"
+          "start": "php -S 0.0.0.0:7000 -t public &",
+          "stop": "sh stop-server.sh"
     },
     "authors": [
         {

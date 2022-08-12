@@ -50,7 +50,7 @@ body {
   padding: 5px;
   width: 100px;
   border: 2px solid gray;
-  background: radial-gradient(#faa914b3, #c06409b3);
+  background: radial-gradient(#1814fab3, #097ac0b3);
   cursor: pointer;
   color: white; }
   .mybutton:hover {

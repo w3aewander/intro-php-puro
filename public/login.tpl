@@ -43,9 +43,9 @@
 
   <!-- Register buttons -->
   <div class="text-center">
-    <p>Não é um membro? <a href="#!">Registre-se</a></p>
-    <p>ou entre com sua conta do:</p>
-    <button type="button" class="btn btn-link btn-floating mx-1">
+   <!-- <p>Não é um membro? <a href="#!">Registre-se</a></p>
+    <p>ou entre com sua conta do:</p> -->
+   <!-- <button type="button" class="btn btn-link btn-floating mx-1">
       <i class="fab fa-facebook-f"></i>
     </button>
 
@@ -59,7 +59,7 @@
 
     <button type="button" class="btn btn-link btn-floating mx-1">
       <i class="fab fa-github"></i>
-    </button>
+    </button> -->
   </div>
 </form>
 
