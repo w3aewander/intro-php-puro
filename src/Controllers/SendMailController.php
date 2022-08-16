@@ -33,12 +33,12 @@ class SendMailController
         $mailer = new Mailer();
         $mailer->sendMail($addr, $name, $subject, $body, $altbody);
 
-        //$response->getBody()->write('<h1>Feito</h1>');
+        $response->getBody()->write('<h1>Email enviado com sucesso!</h1>');
       
-        $ret = ['success'=>true, 'message'=>'feito', 'data'=>[] ];
+        //$ret = ['success'=>true, 'message'=>'feito', 'data'=>[] ];
+        //$resp = $response->withJson($ret, 201);
         
-        
-        return $response->withJson($ret, 201);
+        return $response;
     }
 
 }
