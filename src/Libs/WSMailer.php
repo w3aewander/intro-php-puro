@@ -16,7 +16,8 @@ class WSMailer  {
     $this->mailer = new PHPMailer(); 
     //Server settings
     $this->mailer->SMTPDebug =  1;                    //Enable verbose debug output
-    $this->mailer->isSMTP(true);                                            //Send using SMTP
+    $this->mailer->isSMTP(true);     
+    $this->mailer->encryption = 'tls';                                       //Send using SMTP
     //$this->mailer->Host       = $_ENV('SMTP_SERVER_HOST');             //Set the SMTP server to send through
     //$this->mailer->SMTPAuth   = $_ENV('SMTP_AUTH');                    //Enable SMTP authentication
     //$this->mailer->Username   = $_ENV('SMTP_USERNAME');                //SMTP username
@@ -47,6 +48,8 @@ class WSMailer  {
         $mail = new PHPMailer();
         //$mail->SMTPDebug = 3;    // Enable verbose debug output
         $mail->CharSet = 'UTF-8';
+
+        $mail->SMTPSecure = 'tls';
         // Encode using Unicode
         $mail->isSMTP();
         // Set mailer to use SMTP
@@ -58,7 +61,7 @@ class WSMailer  {
         // SMTP email username
         $mail->Password = $_ENV['SMTP_PASSWORD'];
         // SMTP password
-        $mail->SMTPSecure = 'tls';
+        
         // Enable TLS encryption, `ssl` also accepted
         $mail->Port = $_ENV['SMTP_SERVER_PORT'];
         // TCP port to connect to

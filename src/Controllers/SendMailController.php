@@ -17,17 +17,28 @@ class SendMailController
 
     public function sendMail(Request $request, Response $response)
     {
+     
         //Testando o envio de e-mail
-        $data = json_decode($request->getBody());
-        die(var_dump($data));
+        $data = $request->getParsedBody();
+        //die(var_dump($data));
+     
         $addr = $data["email"]; //("wander.silva@gmail.com");
-        $name = $data["name"]; //Wanderlei Silva do Carmo";
-        $subject = $data["subject"] . " - " . $data['celular']; //'Testando o assunto';
-        $body = $data["message"]; //'<h1>Apenas um teste</h1>';
+        $name = $data["nome"]; //Wanderlei Silva do Carmo";
+        $subject = $data["assunto"] . " - " . $data['celular']; //'Testando o assunto';
+        $body = $data["mensagem"]; //'<h1>Apenas um teste</h1>';
         $altbody = 'Este texto aparecerá apenas se não puder ser enviado em html.';
+
+        //die(var_dump($body));
 
         $mailer = new Mailer();
         $mailer->sendMail($addr, $name, $subject, $body, $altbody);
+
+        //$response->getBody()->write('<h1>Feito</h1>');
+      
+        $ret = ['success'=>true, 'message'=>'feito', 'data'=>[] ];
+        
+        
+        return $response->withJson($ret, 201);
     }
 
 }
